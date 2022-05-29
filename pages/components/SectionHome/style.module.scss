@@ -39,7 +39,12 @@
             background-color: var(--ciano-500);
         }
     }
-
-
+    @media (max-width: 720px){
+        h1{
+            font-size: 3rem;
+        }
+        
+    }
+        
 
 }
