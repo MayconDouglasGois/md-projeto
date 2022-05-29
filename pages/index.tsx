@@ -8,6 +8,7 @@ const Home: NextPage = () => {
      <Head>
      <title>Maycon | Home</title>
      </Head>
+     
     </>
     )
 }
