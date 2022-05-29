@@ -1,14 +1,18 @@
 .container{
     height: 6rem;
     background-color: var(--with-500);
-    
+    box-shadow: 1px 1px 5px #0000001f;
 }
 .contain{
+
     max-width: 1120px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    
+    
 
 
     img{

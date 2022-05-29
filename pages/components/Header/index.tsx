@@ -14,7 +14,7 @@ const Home = () => {
 
         <nav>
         <a href="#" className={style.active}>Home</a>
-        <a href="">contato</a>
+        <a href="#">contato</a>
         </nav>
 
 
