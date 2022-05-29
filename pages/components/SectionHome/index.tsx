@@ -6,8 +6,8 @@ const SectionHome = () => {
     <section className={style.container}>
         <div className={style.content}>
             <h1>MEU-PROJETO</h1>
-            <p>Projetos de Desenvolvimento Front-End</p>
-            <span>Em desenvolvimento</span>
+            <h2>Projetos de Desenvolvimento Front-End</h2>
+            <p><span></span> Em desenvolvimento...</p>
         </div>
     </section>
   )
