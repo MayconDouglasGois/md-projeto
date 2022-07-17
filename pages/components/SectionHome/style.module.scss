@@ -1,63 +1,82 @@
-.container{
-    padding-top: 6rem;
-    background-image: url("../../../public/digitando.jpg");
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 100vh;
-   
-}
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding-top: 8rem;
-
-    h1{
-        font-weight: bolder;
-        font-size: 4rem;
-        color: var(--with-500);
-    }
-
-
-    h2{
-        font-weight: bolder;
-        font-size: 2rem;
-        color: var(--with-500);
-        margin-bottom: 2rem;
-    }
-
-    p {
-        font-weight: bolder;
-        font-size: 1.2rem;
-        color: var(--ciano-500);
-
-    }
-
-    span{
-        display: inline-block;
-        width: 1rem;
-        height: 1rem;
-        border-radius: 1rem;
-        border: 3px solid #e9e9e925;
-        border-top-color: var(--ciano-500);
-       animation: is-rotate 1.2s linear infinite;
-    }
-
-
-    @keyframes is-rotate {
-        from {transform: rotate(0deg)}
-        to {transform: rotate(360deg)}
-    }
-
-
-    @media (max-width: 720px){
-        h1{
-            font-size: 3rem;
+.container {
+    max-width: 1120px;
+    margin: auto;
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    
+        img{
+            width: 100%;
         }
-        
+    
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            margin: auto;
+    
+            h2 {
+                font-size: 2rem;
+            }
+            span{
+                font-size: 1.5rem;
+            }
+        }
+    
     }
-        
+    
+    h1 {
+        padding-top: 2rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+.row{
+    flex-direction: row;
+}
+.rewReverse{
+    flex-direction: row-reverse;
+}
+.backgroundImage{
+    background-image: url("./../../../public/coding-man.png");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-attachment: fixed;
 
 }
+.main {
+    max-width: 1120px;
+    margin: auto;
+
+    height: 500px;
+    padding-top: 7rem;
+    h1 {
+        padding-bottom: 5px;
+        font-size: 3rem;
+        color: var(--with-500);
+    }
+    p {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: var(--with-500);
+    }
+    button {
+        padding: 1rem;
+        background-color: var(--blue-500);
+
+        border: none;
+        border-radius: 1rem;
+
+        transition: filter 0.2s;
+        &:hover{
+            filter: grayscale(20%);
+        }
+    }
+    a {
+        color: var(--with-500);
+        margin: 1rem;
+    }
+}
+
