@@ -1,7 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Footer from './components/Footer'
 import MdCommmerce from './components/SectionHome'
 
 const Home: NextPage = () => {
@@ -13,7 +11,7 @@ const Home: NextPage = () => {
      <main>
      <MdCommmerce/>
      </main>
-     <Footer/>
+ 
      
     </>
     )

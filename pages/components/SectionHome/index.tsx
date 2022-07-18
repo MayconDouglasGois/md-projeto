@@ -6,7 +6,9 @@ const MdCommmerce = () => {
     <>
       <div className={style.backgroundImage}>
         <section className={style.main}>
+          <div className={style.animation}>
           <h1>MD-PROJETO</h1>
+          </div>
           <p>
           Projeto de e-commerce usando o stripe para cadastro e pagamento, o Next Auth autenticação e login e o faunaDB para armazenamento do e-mail do cliente.
           </p>
