@@ -7,11 +7,6 @@ const Home = () => {
   return (
     <div className={style.container}>
         <header className={style.contain}>
-        <img
-        src="logo.svg"
-        alt='Logo Marca'
-        />
-
         <nav>
         <a href="#" className={style.active}>Home</a>
         <a href="#">contato</a>

@@ -2,12 +2,12 @@
 .footerContent{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 
-    background-color: rgb(26, 22, 22);
+    background-color: rgb(93 94 96);
     height: 8rem; 
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.322);
+    box-shadow: 0px 0px 10px 5px rgba(143, 142, 142, 0.322);
 
    span{
     color: var(--with-500);

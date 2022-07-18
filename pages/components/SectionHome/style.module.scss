@@ -5,7 +5,9 @@
     section{
         display: flex;
         flex-wrap: wrap;
-    
+        picture{display: flex;
+            align-items: flex-end;
+        }
         img{
             width: 100%;
         }
@@ -66,18 +68,19 @@
     }
     button {
         padding: 1rem;
-        background-color: var(--blue-500);
+        background-color: var(--with-500);
 
         border: none;
         border-radius: 1rem;
 
-        transition: filter 0.2s;
+        transition: background-color 0.2s;
         &:hover{
-            filter: grayscale(20%);
+            background-color:var(--with-900) ;
         }
     }
     a {
-        color: var(--with-500);
+        color: var(--fontColor);
+        font-weight: bolder;
         margin: 1rem;
     }
 }
