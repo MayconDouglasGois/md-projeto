@@ -10,7 +10,7 @@ const MdCommmerce = () => {
           <h1>MD-PROJETO</h1>
           </div>
           <p>
-          Projeto de e-commerce usando o stripe para cadastro e pagamento, o Next Auth autenticação e login e o faunaDB para armazenamento do e-mail do cliente.
+          Projeto de e-commerce usando o stripe para cadastro e pagamento, o Next Auth autenticação e login e o faunaDB para armazenamento dos dados do cliente.
           </p>
           <button>
             <a

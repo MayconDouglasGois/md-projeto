@@ -86,7 +86,7 @@
     overflow: hidden;
     width: 20rem;
     border-right: 3px solid var(--with-500);
-    animation: cursor .8s infinite normal, texteScript 3s infinite alternate;
+    animation: cursor .8s infinite normal, texteScript 2s steps(20) infinite alternate;
 
 }
 @keyframes cursor {
